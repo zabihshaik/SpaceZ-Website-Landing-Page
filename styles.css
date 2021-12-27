@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 /* Universal Styling */
+
 * {
     box-sixing: border-box;
 }
+
 
 body {
     background: #14273d;
@@ -12,7 +14,7 @@ body {
     color: #fff;
     font-size: 22px;
     font-family: 'Lato', sans-serif;
-    /* overflow: hidden; */
+    overflow: auto;
 }
 
 /* Navbar Styling */
@@ -84,6 +86,10 @@ li:nth-child(2) {
     margin-top: -10px;
 }
 
+.hero-section-content p {
+   line-height: 1.5;
+}
+
 .hero-section-content .btn {
     border: none;
     outline: none;
@@ -119,7 +125,13 @@ li:nth-child(2) {
     color: #fff;
 }
 
+.hero-section-img {
+    margin-top: 10px;
+}
+
 /* Hero Section Styling Ends*/
+
+
 
 /* social media icons styling */
 
@@ -151,15 +163,15 @@ li:nth-child(2) {
 
 .footer {
     display: grid;
-    grid-template-columns: repeat(4, 400px 1fr 1fr 1fr);
+    grid-template-columns: repeat(4, 500px 1fr 1fr 1fr);
     margin-top: 20px;
     grid-gap: 20px;
-    background-color: #17375b; 
+    background-color: #17375b;
 }
+
 .footer-link {
     text-align: center;
     padding: 10px 30px;
-    padding-top: 5px;
     border-radius: 50px;
 }
 
