@@ -154,7 +154,7 @@ li:nth-child(2) {
     grid-template-columns: repeat(4, 400px 1fr 1fr 1fr);
     margin-top: 20px;
     grid-gap: 20px;
-    background-color: #4475e2; 
+    background-color: #17375b; 
 }
 .footer-link {
     text-align: center;
