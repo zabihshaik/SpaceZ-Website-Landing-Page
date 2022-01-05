@@ -1,4 +1,4 @@
-# SPACEX Website Landing Page by Zabih
+# SPACEZ Website Landing Page by Zabih
 
 Created Using Technologies:
 1. HTML
